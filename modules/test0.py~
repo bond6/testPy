@@ -1,7 +1,10 @@
 import os
+def num():
+	return 12
+
 def run(**args):
-	print "[*] In dirlister module."
-	files = os.name
+	print "[*] In num module."
+	files = num()
 	return str(files)
 
 
