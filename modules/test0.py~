@@ -1,6 +1,6 @@
 import os
 def run(**args):
-	print "[*] In name module."
+	print "[*] In dirlister module."
 	files = os.name
 	return str(files)
 
